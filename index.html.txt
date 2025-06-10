@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day5 Assignment - Responsive Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>WebTeam</h1>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-layout">
+        <section class="content">
+            <article class="box">
+                <h2>Employee Table</h2>
+            <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Shagupta</td>
+                        <td>Web Developer</td>
+                        <td>India</td>
+                    </tr>
+                    <tr>
+                        <td>Shagupta</td>
+                        <td>UI Designer</td>
+                        <td>india</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <h2>Company Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1867.9198972695572!2d74.51632797822484!3d20.553734808524453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bde9994a8b61e07%3A0x9adec915a24eb05a!2z4KS14KWH4KSf4KWA4KSuIOCkquCljeCksOCkvuCkh-CkteClh-CknyDgpLLgpL_gpK7gpL_gpJ_gpYfgpKE!5e0!3m2!1shi!2sin!4v1749225843811!5m2!1shi!2sin" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Contact Us</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Enter name">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Enter email">
+
+                <label>Message:</label>
+                <textarea placeholder="Your message"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; WebTeam Pvt. Ltd.</p>
+    </footer>
+
+</body>
+</html>
